@@ -56,7 +56,7 @@ const determineWinner = (userChoice, computerChoice) => {
 const playGame = () =>{
   const userChoice = getUserChoice('scissors');
   const computerChoice = getComputerChoice();
-  console.log("Your choice is " + userChoice);
+  console.log("Your choice is: " + userChoice);
   console.log("Computer choice is: " + computerChoice);
   console.log(determineWinner(userChoice, computerChoice));
 }
